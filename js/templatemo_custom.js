@@ -55,7 +55,6 @@ jQuery(document).ready(function($){
 
 	$(".main_menu a.templatemo_page3").click(function(){
 		$("#menu-container .about").addClass("animated fadeInDown").show();
-		$(".our-services").show();
 		$(this).addClass('active');
 		$(".main_menu a.templatemo_page1").removeClass('active');
 		$(".main_menu a.templatemo_page2").removeClass('active');
