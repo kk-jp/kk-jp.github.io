@@ -38,7 +38,8 @@ jQuery(document).ready(function($){
 		$(".main_menu a.templatemo_page3").removeClass('active');
 		$(".main_menu a.templatemo_page4").removeClass('active');
 		$("#navi_profile").show();
-		$("#navi_location").hide();
+		//$("#navi_location").hide();
+		$("#navi_concept").hide();
 		$("#navi_history").hide();
 		return false;
 	});
@@ -77,22 +78,31 @@ jQuery(document).ready(function($){
 
 	$("#templatemo_navi_profile").click(function(){
 		$("#navi_profile").show();
-		$("#navi_location").hide();
+	    //$("#navi_location").hide();
+		$("#navi_concept").hide();
 		$("#navi_history").hide();
 		return false;
 	});
 
-	$("#templatemo_navi_location").click(function(){
-		$("#navi_location").show();
-		$("#navi_profile").hide();
-		$("#navi_history").hide();
-		return false;
+//	$("#templatemo_navi_location").click(function(){
+//		$("#navi_location").show();
+//		$("#navi_profile").hide();
+//		$("#navi_history").hide();
+//		return false;
+//	});
+
+	$("#templatemo_navi_concept").click(function () {
+	    $("#navi_concept").show();
+	    $("#navi_profile").hide();
+	    $("#navi_history").hide();
+	    return false;
 	});
 
 	$("#templatemo_navi_history").click(function(){
 		$("#navi_history").show();
 		$("#navi_profile").hide();
-		$("#navi_location").hide();
+	    //$("#navi_location").hide();
+		$("#navi_concept").hide();
 		return false;
 	});
 
