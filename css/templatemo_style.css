@@ -176,6 +176,11 @@ h1 {
     
 }
 
+.article_title {
+    font-weight:600;
+    font-size:18px;
+}
+
 .templatemo_topwrapper {
     width: 100%;
     height: 100px;
@@ -233,6 +238,7 @@ h1 {
 
 .templatemo_hometop_subtitle {
     font-size: 22px;
+    font-weight:600;
     color: #383838;
     letter-spacing: -3px;
     margin: 12px 0px 5px 0px;

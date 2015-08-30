@@ -51,10 +51,10 @@ jQuery(document).ready(function($){
 		$(".main_menu a.templatemo_page1").removeClass('active');
 		$(".main_menu a.templatemo_page3").removeClass('active');
 		$(".main_menu a.templatemo_page4").removeClass('active');
-		$("#navi_content").show();
-		$("#navi_service").hide();
-		$("#navi_skill").hide();
-		$("#navi_product").hide();
+		//$("#navi_content").show();
+		//$("#navi_service").hide();
+		//$("#navi_skill").hide();
+		//$("#navi_product").hide();
 		return false;
 	});
 
