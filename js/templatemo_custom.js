@@ -37,9 +37,9 @@ jQuery(document).ready(function($){
 		$(".main_menu a.templatemo_page2").removeClass('active');
 		$(".main_menu a.templatemo_page3").removeClass('active');
 		$(".main_menu a.templatemo_page4").removeClass('active');
-		$("#navi_profile").show();
-		$("#navi_location").hide();
-		$("#navi_concept").hide();
+		//$("#navi_profile").show();
+		//$("#navi_location").hide();
+		//$("#navi_concept").hide();
 		//$("#navi_history").hide();
 		return false;
 	});
