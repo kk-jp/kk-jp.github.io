@@ -245,7 +245,7 @@ h1 {
 }
 
 .space_img {
-    width: 1200px;
+    width: 1120px;
     height: 0px;
     max-width: 100%;
     max-height: 100%; 
@@ -254,7 +254,7 @@ h1 {
 }
 
 .v_space_img {
-    width: 1200px;
+    width: 800px;
     height: 0px;
     max-width: 100%;
     max-height: 100%; 
@@ -264,7 +264,7 @@ h1 {
 
 .h_space_img {
     width: 0px;
-    height: 400px;
+    height: 10px;
     max-width: 100%;
     max-height: 100%; 
     margin: auto;
